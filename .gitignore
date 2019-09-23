@@ -1,5 +1,9 @@
 ## User added skips
 test.pdf
+test2.pdf
+
+#emacs
+*~
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
