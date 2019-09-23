@@ -1,14 +1,28 @@
 \documentclass{article}
+\usepackage{amsmath}
 \begin{document}
 
 \author{A.\ Utorius}
 \title{Lietuvi{\v s}kų raid{\v z}ių ra{\v s}ymas}
-\date{today}
+\date{\today}
 
 \maketitle
 
 Lietuviškos raid{\.e}s:$<$ĄČĘĖĮŠŲŪŽąčęėįšųūž$>$ \cite{ref1}.
 
+\section{Apžvalga}
+
+Viena svarbiausių analizinės algebros žinių yra Teiloro eilutė:
+\begin{align}
+f(x)\big|_{x=a} &=& f(a)
+ + \frac{f'(a)}{1!} (x-a)
+ + \frac{f''(a)}{2!} (x-a)^2
+ + \frac{f'''(a)}{3!} (x-a)^3
+ + \dots \nonumber \\
+ &=& \sum\limits_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!} (x-a)^n
+\end{align}
+
+% ---------------------------------------------
 \section*{Padėka}
 
 \textit{\input{greetings}}
