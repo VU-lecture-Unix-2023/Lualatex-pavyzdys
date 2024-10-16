@@ -1,4 +1,7 @@
 \documentclass{article}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[lithuanian]{babel}	% lietuviškas skiemenavimas
 \usepackage{amsmath}
 \usepackage{graphicx}
 \begin{document}
@@ -10,7 +13,8 @@
 \maketitle
 
 Lietuviškos raid{\.e}s:$<$ĄČĘĖĮŠŲŪŽąčęėįšųūž$>$ \cite{ref1}.
-Pavyzdys {\sf test.tex} sukompiliuotas su \textsf{lualatex}.
+Pavyzdys {\sf test2.tex}, sukompiliuotas su \textsf{pdflatex}.
+Lietuviško skiemenavimo paketas buvo įtrauktas.
 
 \section{Apžvalga}
 
@@ -26,8 +30,7 @@ f(x)\big|_{x=a} &=& f(a)
 
 % ---------------------------
 \begin{figure}[b]
-\centering
-\includegraphics[height=0.1\textheight,width=0.15\textwidth]{texlive.png}
+\includegraphics[height=0.1\textheight,width=0.1\textwidth]{texlive.png}
 \caption{Atlikto darbo pirmasis puslapis.}
 \label{fig-report}
 \end{figure}
@@ -46,7 +49,6 @@ rezultatai pristatomi itin glaustai, pateikiant tik pagrindinius
 faktus ar skaitines vertes, atsako į klausimą ,,kas buvo nustatyta,
 išmatuota, ar sužinota?{}``. Santraukos apimtis neturėtų būti mažesnė
 nei 50 žodžių, ir negali viršyti 100 žodžių.
-
 
 % ---------------------------------------------
 \section*{Padėka}
